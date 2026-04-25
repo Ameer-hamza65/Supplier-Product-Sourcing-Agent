@@ -17,6 +17,7 @@ Built with **LangGraph + FastAPI (backend)** and **Streamlit (frontend)**.
 - **Decision Matrix** — top 10 suppliers ranked across 12 criteria, exportable to PDF & CSV
 - **Streamlit UI** — wizard input, live agent progress, interactive matrix, email editor
 
+## ✨ Agent Graph
 ```mermaid
 graph TD
     User([User: Product Spec Input]) --> API[FastAPI Backend<br/>POST /jobs]
